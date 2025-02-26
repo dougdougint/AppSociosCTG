@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "MeuApp",
+    "slug": "meuapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",  // O ícone do aplicativo
+    "splash": {
+      "image": "./assets/splash.png",  // A imagem de splash do aplicativo
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.meuapp.app",
+      "buildNumber": "1.0.0",
+      "icon": "./assets/icon.png",  // Ícone para iOS
+      "splash": {
+        "image": "./assets/splash.png",  // Splash para iOS
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "android": {
+      "package": "com.meuapp.app",
+      "versionCode": 1,
+      "icon": "./assets/icon.png",  // Ícone para Android
+      "splash": {
+        "image": "./assets/splash.png",  // Splash para Android
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"  // Ícone de favicon para a versão web
+    }
+  }
+}
